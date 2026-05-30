@@ -85,16 +85,13 @@ app.listen(PORT, () => {
    console.log('Ejemplos de endpoints:');
 
   console.log('     GET http://localhost:3000/api/alumnos');
-  console.log('     GET http://localhost:3000/api/profesor');
-  console.log('     Ojo: Este devuelve la url de una foto, píntala');
-  console.log(' ');
+  console.log('     GET http://localhost:3000/api/profesor      Ojo: Este devuelve la url de una foto, píntala');
   console.log('     GET http://localhost:3000/api/tienda');
   console.log(' ');
-  console.log(' ---  Para estos, los parámetros pásalos como atributo del método en angular y guárdalos en una variable de la página  ---');
+  console.log(' --- PASO DE PARÁMETROS: los parámetros pásalos como atributo del método en el servicio y guárdalos en una variable de la página  ---');
   console.log('     Para llamar a /api/persona/:nif  sustituyes :nif por un número.');
   console.log('            GET http://localhost:3000/api/persona/12345678Z');
-  console.log('     Ojo: Este te devuelve una imagen en base64, para mostrarla haz lo mismo que cuando te devuelve una url');
-  console.log(' ');
+  console.log('                   Ojo: Este te devuelve una imagen en base64, para mostrarla haz lo mismo que cuando te devuelve una url');
   console.log('     Para llamar a /api/videojuegos/:id  sustituyes :id por un número');
   console.log('            GET http://localhost:3000/api/videojuegos/10');
   console.log('     Para llamar a /api/facturas/:anyo/:id  sustituyes :anyo por un año e :id por un número');
