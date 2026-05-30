@@ -90,7 +90,8 @@ app.listen(PORT, () => {
   console.log(' ');
   console.log('     GET http://localhost:3000/api/tienda');
   console.log(' ');
-  console.log('     Para llamar a /api/persona/:nif  sustituyes :nif por un número');
+  console.log(' ---  Para estos, los parámetros pásalos como atributo del método en angular y guárdalos en una variable de la página  ---');
+  console.log('     Para llamar a /api/persona/:nif  sustituyes :nif por un número.');
   console.log('            GET http://localhost:3000/api/persona/12345678Z');
   console.log('     Ojo: Este te devuelve una imagen en base64, para mostrarla haz lo mismo que cuando te devuelve una url');
   console.log(' ');
